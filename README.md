@@ -24,10 +24,10 @@ JavaScript, HTML, CSS, Angular
 [Foxgram](https://github.com/NastyaKrp/foxgram?tab=readme-ov-file)  
 JavaScript, HTML, CSS
 
-[Foxtok](https://github.com/NastyaKrp/foxgram?tab=readme-ov-file)  
+[Foxtok](https://github.com/NastyaKrp/foxtok?tab=readme-ov-file)  
 JavaScript, HTML, CSS
 
-[Frontend internship FAMCS](https://github.com/NastyaKrp/foxtok?tab=readme-ov-file)  
+[Frontend internship FAMCS](https://github.com/NastyaKrp/intern_famcs)  
 JavaScript, HTML, CSS
 
 [JavaScript tasks](https://github.com/NastyaKrp/js-tasks)  
