@@ -27,7 +27,7 @@ JavaScript, HTML, CSS
 [Foxtok](https://github.com/NastyaKrp/foxgram?tab=readme-ov-file)  
 JavaScript, HTML, CSS
 
-[Frontend internship FAMCS](https://github.com/NastyaKrp/intern_famcs)  
+[Frontend internship FAMCS](https://github.com/NastyaKrp/foxtok?tab=readme-ov-file)  
 JavaScript, HTML, CSS
 
 [JavaScript tasks](https://github.com/NastyaKrp/js-tasks)  
