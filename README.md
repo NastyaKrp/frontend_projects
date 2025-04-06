@@ -3,32 +3,32 @@
 [IT-FAMCS Legacy guide](https://github.com/IT-FAMCS/legacy-front)  
 React, TypeScript, MUI
 
-[Task-manager](https://github.com/NastyaKrp/task-manager)  
+[Task-manager](https://github.com/NastyaKrp/frontend_projects/tree/main/task-manager)  
 React, TypeScript, Redux, CSS, MUI
 
-[Calculator](https://github.com/NastyaKrp/calculator)  
+[Calculator](https://github.com/NastyaKrp/frontend_projects/tree/main/calculator)  
 JavaScript, HTML, CSS
 
-[Shelter Website](https://github.com/NastyaKrp/shelter__privat)  
+[Shelter Website](https://github.com/NastyaKrp/frontend_projects/tree/main/shelter)  
 JavaScript, HTML, CSS
 
-[Gym Desctope Website](https://github.com/NastyaKrp/gym?tab=readme-ov-file)  
+[Gym Desktop Website](https://github.com/NastyaKrp/frontend_projects/tree/main/gym)  
 JavaScript, HTML, CSS
 
-[Haus Desctope Website](https://github.com/NastyaKrp/haus_website)  
+[Haus Desktop Website](https://github.com/NastyaKrp/frontend_projects/tree/main/haus-website)  
 HTML, CSS
 
-[Car Rental Desktop Website](https://github.com/NastyaKrp/test?tab=readme-ov-file)  
+[Car Rental Desktop Website](https://github.com/NastyaKrp/frontend_projects/tree/main/car-rental)  
 JavaScript, HTML, CSS, Angular
 
-[Foxgram](https://github.com/NastyaKrp/foxgram?tab=readme-ov-file)  
+[Foxgram](https://github.com/NastyaKrp/frontend_projects/tree/main/foxgram)  
 JavaScript, HTML, CSS
 
-[Foxtok](https://github.com/NastyaKrp/foxtok?tab=readme-ov-file)  
+[Foxtok](https://github.com/NastyaKrp/frontend_projects/tree/main/foxtok)  
 JavaScript, HTML, CSS
 
-[Frontend internship FAMCS](https://github.com/NastyaKrp/intern_famcs)  
+[Frontend internship FAMCS](https://github.com/NastyaKrp/frontend_projects/tree/main/intern-famcs)  
 JavaScript, HTML, CSS
 
-[JavaScript tasks](https://github.com/NastyaKrp/js-tasks)  
+[JavaScript tasks](https://github.com/NastyaKrp/frontend_projects/tree/main/js-tasks)  
 JavaScript
