@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gym</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+
+
+  <header>
+      <div class="container__head">
+          <div class="head__left">
+              <button class="menu__btn"><img src="images/Burger.svg" alt="menu" class="menu__burger"></button>
+              <img src="images/main-logo.svg" alt="svoi gym" class="logo__head">
+              <div class="header__address">
+                  <img src="images/map-pin-icon.svg" alt="" class="pin">
+                  <p class="header__address__txt">а/г Ждановичи, ул. Парковая, 2</p>
+              </div>
+          </div>
+          <div class="head__number__popup">
+              <p class="head__number">+375 (25) 549-66-22</p>
+              <div class="popup">
+                  <div class="b-container">
+                      <a href="javascript:PopUpShow1()" style="color: #1a202a;">Авторизация</a>
+                  </div>
+                  <div class="b-container">
+                      <a href="javascript:PopUpShow2()" style="color: #1a202a;">Регистрация</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+
+
+  <div class="b-popup" id="popup1">
+      <div class="b-popup-content">
+          <div class="login-form">
+              <div class="popup__head">
+                  <h2>Авторизация</h2>
+                  <a href="javascript:PopUpHide1()" style="color: #1a202a;" class="cross">&times;</a>
+              </div>
+              <form class="form__div">
+                  <input type="email" id="login-email" name="login-email" placeholder="Электронная почта" required><br>
+                  <input type="password" id="login-password" name="login-password" placeholder="Пароль" required><br>
+                  <input type="submit" value="Войти">
+              </form>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="b-popup" id="popup2">
+      <div class="b-popup-content">
+          <div class="register-form">
+              <div class="popup__head">
+                  <h2>Регистрация</h2>
+                  <a href="javascript:PopUpHide2()" style="color: #1a202a;" class="cross">&times;</a>
+              </div>
+              <form class="form__div">
+                  <input type="text" id="register-name" name="register-name" placeholder="Имя" required><br>
+                  <input type="email" id="register-email" name="register-email" placeholder="Электронная почта" required><br>
+                  <input type="password" id="register-password" name="register-password" placeholder="Пароль" required><br>
+                  <input type="submit" value="Зарегистрироваться"><br>
+              </form>
+          </div>
+      </div>
+  </div>
+
+
+<div class="start__screen">
+    <div class="start__screen__txt">
+        <h1>становись лучше<br> среди своих</h1>
+        <p>Тренажерный зал SVOI GYM предлагает<br> бесплатную тренировку с персональным тренером</p>
+        <button class="main__btn">Записаться на тренировку</button>
+    </div>
+    <img src="images/main-slider@2x.png" alt="" class="start__screen__img">
+</div>
+
+
+
+  <div class="services">
+      <div class="services__blur-wrapper">
+          <div class="services__wrapper">
+              <h2 style="color: white">Наши направления</h2>
+              <div class="services__div">
+                  <div class="service__div">
+                      <h3 id="s1" class="services__names__txt">Тренажерный зал</h3>
+                      <div class="service__txt">
+                          <p class="services__info__h">Мы представляем серию тренажёров линии XLine. Это новый и современный подход к тренировкам и работе с телом. Кардиозона, боксерская груша, зона для работы со свободными весами и грузоблочные тренажеры, зона функционального тренинга — это и другое вы найдёте в нашем зале.</p>
+                          <div class="services__info__txt">
+                              <div class="services__info__time">
+                                  <p class="services__p"><b>Время работы</b></p>
+                                  <p class="services__pp"><b>Пн-Пт:</b> 09:00-22:00</p>
+                                  <p class="services__pp"><b>Сб-Вс:</b> 09:00-21:00</p>
+                              </div>
+                              <div class="services__info__trainer">
+                                  <p class="services__p"><b>Тренеры</b></p>
+                                  <p class="services__pp">Кривицкий Александр</p>
+                                  <p class="services__pp">Романчик Полина</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                      <div class="service__div">
+                          <h3 id="s2" class="services__names__txt">Pilates</h3>
+                          <div class="service__txt">
+                              <p class="services__info__h">Комплекс, состоящий из ряда специальных упражнений, направленных на повышение прочности тела, улучшение осанки, укрепление мышц пресса и спины, развитие координации. Проходит в умеренном темпе с различным оборудованием.</p>
+                              <div class="services__info__txt">
+                                  <div class="services__info__time">
+                                      <p class="services__p"><b>Время работы</b></p>
+                                      <p class="services__pp"><b>Пн:</b> 18:00</p>
+                                      <p class="services__pp"><b>Ср:</b> 18:00</p>
+                                      <p class="services__pp"><b>Пт:</b> 18:00</p>
+                                  </div>
+                                  <div class="services__info__trainer">
+                                      <p class="services__p"><b>Тренеры</b></p>
+                                      <p class="services__pp">Полина Романчик</p>
+                                      <p class="services__pp">Наталья Валяля</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="service__div">
+                          <h3 id="s3" class="services__names__txt">Stretching</h3>
+                          <div class="service__txt">
+                              <p class="services__info__h">Тренировка на все тело, в основе которой лежит увеличение гибкости связок, мышц и сухожилий. Занятия помогут улучшить осанку, устранить напряжения во всем теле, повысить устойчивость к травмам.</p>
+                              <div class="services__info__txt">
+                                  <div class="services__info__time">
+                                      <p class="services__p"><b>Время работы</b></p>
+                                      <p class="services__pp"><b>Пн:</b> 21:00</p>
+                                      <p class="services__pp"><b>Ср:</b> 21:00</p>
+                                      <p class="services__pp"><b>Пт:</b> 21:00</p>
+                                  </div>
+                                  <div class="services__info__trainer">
+                                      <p class="services__p"><b>Тренеры</b></p>
+                                      <p class="services__pp">Полина Романчик</p>
+                                      <p class="services__pp">Зубович Татьяна</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  <div class="service__div">
+                      <h3 id="s4" class="services__names__txt">Top body</h3>
+                      <div class="service__txt">
+                          <p class="services__info__h">Высокоинтенсивная тренировка с различным оборудованием (степы, гантели, фитболы и др). Помогает привести мышцы в тонус, подтянуть тело. Способствует общему похудению и оздоровлению организма.</p>
+                          <div class="services__info__txt">
+                              <div class="services__info__time">
+                                  <p class="services__p"><b>Время работы</b></p>
+                                  <p class="services__pp"><b>Пн:</b> 19:00</p>
+                                  <p class="services__pp"><b>Ср:</b> 19:00</p>
+                                  <p class="services__pp"><b>Пт:</b> 19:00</p>
+                              </div>
+                              <div class="services__info__trainer">
+                                  <p class="services__p"><b>Тренеры</b></p>
+                                  <p class="services__pp">Полина Романчик</p>
+                                  <p class="services__pp">Зубович Татьяна</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="comments">
+      <div id="comments-container"></div>
+  </div>
+
+  <div class="gym__check__dom">
+      <div id="gym-array-container"></div>
+  </div>
+  <script src="dom_main.js" defer></script>
+
+<div class="signup">
+    <div class="signup__input">
+        <h2>сделай первый шаг</h2>
+        <p style="margin-bottom: 35px">Чтобы записаться на бесплатное занятие с тренером, заполни форму, и мы перезвоним в течение 15 минут</p>
+        <div class="signup__details">
+            <p style="color: #d74a4a; margin-right: 10px">* </p>
+            <p>посещение зала оплачивается согласно прейскуранта</p>
+        </div>
+        <div class="signup__details" style="margin-bottom: 50px">
+            <p style="color: #d74a4a; margin-right: 10px">* </p>
+            <p>предложение действует только для новых клиентов зала</p>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Телефон">
+        </div>
+        <button class="main__btn btn__call" style="width: 100%; margin-top: 20px">Перезвоните мне</button>
+    </div>
+</div>
+  <div class="feedback">
+     
+  </div>
+<div class="footer">
+    <div class="footer__wrap">
+        <div class="footer__logo">
+            <img src="images/main-logo.svg" alt="SVOI GYM">
+            <p>© SVOI GYM, 2022</p>
+        </div>
+        <div class="footer__info">
+            <p class="footer__title">Мы находимся по адресу</p>
+            <p class="footer__txt">а/г Ждановичи, ул. Парковая, 2</p>
+        </div>
+        <div class="footer__info">
+            <p class="footer__title">Режим работы</p>
+            <p class="footer__txt">Пн-Пт: 9:00-22:00</p>
+            <p class="footer__txt">Сб-Вс: 9:00-21:00</p>
+        </div>
+        <div class="footer__info">
+            <p class="footer__title">Позвоните нам</p>
+            <p class="footer__txt">+375 (25) 549-66-22</p>
+        </div>
+        <div class="footer__ss">
+            <p class="footer__title">Мы в соцсетях</p>
+            <div class="ss__icons">
+                <a href="https://www.instagram.com/svoi_gym/"><img src="images/instagram.png" alt="instagram" class="ss__icon"></a>
+                <a href="https://vk.com/svoigym"><img src="images/vk.png" alt="vk" class="ss__icon"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

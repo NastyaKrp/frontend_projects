@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Liberation Serif";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Liberation Serif"),
+    url("/fonts/LiberationSerif-Regular.ttf") format("ttf"),
+    url("/fonts/liberationserif.ttf") format("ttf"),
+    url("/fonts/liberationserif.woff") format("woff"),
+    url("/fonts/liberationserif.woff2") format("woff2")
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main__screen{
+    position: relative;
+    background-color: #996b60;
+}
+
+
+.top__discount{
+    background-color: #191919;
+    color: #ffffff;
+    padding: 16px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.menu__head{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 25px 60px 31px 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__min{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__left{
+    padding-right: 60px;
+}
+
+.menu__right{
+    padding-left: 64px;
+}
+
+.main__bc{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 900px; /*костыль*/
+    background-color: #996b60;
+    padding-bottom: 100px;
+}
+
+.main__img{
+    position:absolute;
+    width: 50%;
+    height: 900px; /*костыль*/
+    top: 0;
+}
+
+.main__text{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 312px 0px 0px 60px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+    width: 632px;
+}
+
+h1{
+    font-family: 'Liberation Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 96px;
+    width: 500px;
+    padding-bottom: 34px;
+}
+
+.main__screen__btn{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    height: 52px;
+    padding: 18px 52px 20px;
+    margin: 46px 0 100px;
+}
+
+.white__bg{
+    position: relative;
+    top: 910px; /*костыль*/
+    background-color: white;
+    width: 100%;
+    margin: 55px 0 55px;
+}
+
+
+.quotes{
+    width: 1320px;
+    border-bottom: 1px solid #BDBDBD;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 106px auto;
+}
+
+.quote{
+    width: 330px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    padding: 4px 21px 86px 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote__text{
+    margin-bottom: 36px;
+}
+
+.made__small__txt{
+    width: 750px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: auto auto 60px;
+}
+
+h2{
+    font-family: 'Liberation Serif', sans-serif;
+    text-transform: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    width: 750px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px 0 90px;
+    padding-bottom: 141px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.buy__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 382px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.item__img{
+    margin-bottom: 19px;
+    position: relative;
+}
+
+.best__seller{
+    position: absolute;
+    height: 100px;
+    left: 68.83%;
+    right: 5.01%;
+    top: 23px;
+    background: #191919;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.best__txt{
+    width: 58px;
+}
+
+.item__name{
+    font-family: 'Liberation Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.item__btn{
+    margin-top: 27px;
+    height: 52px;
+    background: #191919;
+    border: 1px solid #191919;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 18px 48px 20px 49px;
+}
+
+.intro{
+    margin: 60px 60px 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.intro__txt{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin-top: 54px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+
+h3{
+    font-family: 'Liberation Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 80px;
+    color: #000000;
+    width: 472px;
+}
+
+.intro__p{
+    width: 548px;
+    padding-bottom: 95px;
+}
+
+.advantages{
+    padding: 60px 60px 50px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adv__img{
+    padding-left: 55px;
+}
+
+.adv__txt{
+    margin-top: 62px;
+    max-width: 385px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+
+h4{
+    font-family: 'Liberation Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+h5{
+    font-family: 'Liberation Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.adv{
+    margin-bottom: 25px;
+}
+
+.black__bg{
+    background-color: #000000;
+    padding: 95px 60px 50px 60px;
+    color: #ffffff;
+}
+
+.quote__black__txt{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 17px;
+}
+
+.quote__black__author{
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.quote__black__who{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #8A8A8A;
+}
+
+.quotes__black{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.quote__black{
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flowers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.flowers__txt{
+    max-width: 660px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.flowers__txt__main{
+    margin-bottom: 150px;
+}
+
+.flower__txt__more{
+    margin-top: 35px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.img__bg{
+    background-image: url("https://github.com/NastyaKrp/haus_website/blob/main/images/last_bg.png?raw=true");
+    background-size: 100%;
+    padding: 60px 60px 50px;
+}
+
+.spotify{
+    width: 550px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 40px 69px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 22px;
+}
+
+.spotify__txt__main{
+    font-family: 'Liberation Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 80px;
+    margin-bottom: 9px;
+}
+
+.spotify__btn{
+    background-color: white;
+    color: black;
+    padding: 18px 58px 20px;
+    margin-top: 26px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.follow{
+    width: 550px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 28px 134px 36px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 22px;
+}
+
+.follow__media{
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.basement{
+    background-color: black;
+    padding: 45px 60px 125px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe{
+    font-size: 18px;
+    line-height: 27px;
+    width: 440px;
+}
+
+.sub__main{
+    font-family: 'Liberation Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 72px;
+    margin-bottom: 12px;
+}
+
+.sub__enter{
+    border-bottom: 1px solid #8A8A8A;
+    height: 53px;
+    padding: 18px 0 21px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.sub__enter__in{
+    background-color: transparent;
+    border: none;
+    font-size: 9px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #818181;
+}
+
+.sub__enter__btn{
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link__block{
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 218px;
+}
+
+.block__txt{
+    margin-top: 25px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.block__txt.link__block__follow{
+    height: 156px;
+}
+
+.block__txt.link__block__line{
+    height: 180px;
+}
+
+.basement__links{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 39px;
+    padding: 60px;
+}
+
+.basement__main{
+    margin-right: 60px;
+}
+
+.basement__txt{
+    display: flex;
+    justify-content: space-between;
+    height: 39px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.basement__txt__one{
+    margin-right: 60px;
+}

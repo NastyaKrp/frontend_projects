@@ -1,0 +1,407 @@
+
+
+@font-face {
+    font-family: "Bebas Neue";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/BebasNeue-700.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/montserrat-500.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/montserrat-800.woff2) format("woff2")
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    color: rgba(26,32,42,0.70196);
+    background-color: #f7f7f7;
+}
+
+.container__head
+{
+    padding: 44px 50px;
+    display: flex;
+}
+
+.menu__burger{
+    margin-top: auto;
+    width: 39px;
+    margin-right: 57px;
+}
+
+.menu__btn{
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo__head{
+    margin-right: 57px;
+    margin-top: auto;
+    width: 165px;
+}
+
+.header__address{
+    margin-top: auto;
+    display: flex;
+    align-items: flex-start;
+    height: 30px;
+    font-size: 20px;
+    color: #1a202ab3;
+}
+
+.header__address__txt{
+    display: flex;
+    align-items: flex-start;
+    margin-top: auto;
+}
+
+.pin{
+    height: 26px;
+    margin-right: 16px;
+}
+
+
+.head__left{
+    display: flex;
+}
+
+
+
+.head__number__popup{
+    margin-left: auto;
+    color: #1a202ab3;
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: auto;
+}
+
+.head__number{
+    color: #D74A4A;
+    font-size: 20px;
+    font-weight: 800;
+    /*margin-top: auto;*/
+}
+
+
+.start__screen{
+    padding-left: 140px;
+    padding-bottom: 35px;
+    font-size: 20px;
+    color: #1a202ab3;
+    display: flex;
+}
+
+.start__screen__txt{
+    padding-top: 195px;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
+    margin-bottom: 30px;
+    color: #1a202a;
+}
+
+.main__btn{
+    padding: 23px 20px;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    background-color: #D74A4A;
+    border: none;
+    margin-top: 65px;
+}
+
+.start__screen__img{
+    width: 35%;
+    margin-left: auto;
+    margin-right: 44px;
+}
+
+.signup{
+    background-image: url("images/features-2-bg@1x.jpg");
+    background-size: 100%;
+}
+
+
+.signup__input{
+    padding: 115px 65px 115px;
+    background-color: rgba(211,211,211,.9);
+    height: 100%;
+    width: 50%;
+    font-size: 20px;
+    color: #1a202ab3;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    margin-bottom: 33px;
+    padding-left: 24px;
+    color: #1a202a;
+    border-left: 10px solid #d74a4a;
+}
+
+.signup__details{
+    display: flex;
+    font-size: 18px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 30px;
+    padding: 26px 32px 26px;
+    border: none;
+}
+
+.main__btn:hover{
+    background-color: #db2f2fff;
+}
+
+.footer{
+    width: 100%;
+
+    color: #1a202ab3;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__wrap{
+    width: 100%;
+    padding: 60px 52px 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title{
+    color: #1a202a;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.footer__info{
+    margin-bottom: 30px;
+}
+
+.ss__icon{
+    width: 32px;
+    margin-right: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.services{
+    color: white;
+    background-blend-mode: darken;
+    background-color: rgba(25,32,42,.90196);
+    background-image: url(images/services-bg@1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 140px;
+    padding-bottom: 35px;
+    font-size: 20px;
+    display: flex;
+}
+
+.services__blur-wrapper{
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
+
+.services__wrapper{
+    padding: 70px 20px 0;
+}
+
+.services__div{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.service__div{
+    display: grid;
+    grid-template-columns: 25% 55%;
+    margin-bottom: 70px;
+}
+
+
+.services__names__txt{
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+
+.service__txt{
+    width: 100%;
+    font-size: 20px;
+    color: #ffffffcc;
+}
+
+b{
+    color: white;
+}
+
+.services__info__h{
+    margin-bottom: 38px;
+}
+
+.services__info__txt{
+    display: flex;
+}
+
+.services__info__time{
+    margin-right: 100px;
+}
+
+.services__p{
+    margin-bottom: 20px;
+}
+
+.services__pp{
+    margin-bottom: 10px;
+}
+
+
+.login-form, .register-form {
+    margin: auto;
+}
+
+.form__div{
+    margin: auto;
+}
+
+.login-form h2, .register-form h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.login-form label, .register-form label {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.login-form input[type="email"], .login-form input[type="password"], .login-form input[type="text"],
+.register-form input[type="email"], .register-form input[type="password"], .register-form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.login-form input[type="submit"], .register-form input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    background-color: #db2f2f;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.popup{
+    display: flex;
+}
+
+.b-container{
+    margin:0 auto;
+    padding:10px;
+    color: #1a202a;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0 auto;
+    width:25%;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0 0 10px #000;
+}
+
+.popup__head{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.cross{
+    font-size: 30px;
+    margin-left: auto;
+}
+
+
+.comments{
+    display: flex;
+    margin: 20px 50px 20px;
+}
+
+.comment{
+    margin-bottom: 30px;
+}
+
+.gym__check__dom{
+    padding: 70px 50px 20px;
+    background-color: #1a202a;
+    color: #c5c5c5;
+}
+
+.gym__array{
+    margin-bottom: 40px;
+}
+
+.id__span{
+    color: #db2f2f;
+    font-size: 18px;
+}
+
+.gym__array__p{
+    margin-top: 15px;
+}

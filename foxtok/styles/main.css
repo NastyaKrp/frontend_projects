@@ -1,0 +1,40 @@
+.btn.outlined{
+    background-color: transparent;
+    border: 1px solid #E9E9E9;
+}
+
+.btn.primary{
+    background-color: #FE2C55;
+    color: #FFFFFF;
+}
+
+.btn.outlined:hover{
+    background-color: #FAFAFA
+}
+
+.btn.primary:hover{
+    background-color: #F02A51
+}
+
+.btn.text.primary{
+    background-color: transparent;
+    color: #FE2C55;
+}
+
+.btn.text:hover{
+    background-color: #F1F1F2;
+}
+
+.btn.outlined.primary{
+    background-color: transparent;
+    color: #FE2C55;
+    border-color: #FE2C55;
+}
+
+.btn.outlined.primary:hover{
+    background-color: #FFF4F5;
+}
+
+a.menu__btn.btn.text.upper{
+    text-transform: uppercase;
+}
